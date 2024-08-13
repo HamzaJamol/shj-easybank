@@ -104,3 +104,10 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 
 }
+
+body {
+  background-image: url(../img/sher-Jurmala-back.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
