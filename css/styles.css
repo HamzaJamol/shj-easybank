@@ -50,9 +50,9 @@ textarea:-webkit-autofill:focus,
 select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
-  border-color: transparent;
-  -webkit-text-fill-color: inherit;
-  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+border-color: transparent;
+-webkit-text-fill-color: inherit;
+-webkit-box-shadow: 0 0 0px 1000px #fff inset;
 }*/
 
 
@@ -61,8 +61,8 @@ select:-webkit-autofill:focus {
 ::-moz-placeholder,
 :-ms-input-placeholder,
 :-moz-placeholder {
-  color: rgba(52, 49, 61, 0.5);
-  opacity: 1;
+color: rgba(52, 49, 61, 0.5);
+opacity: 1;
 }*/
 
 
@@ -90,6 +90,16 @@ select:-webkit-autofill:focus {
 }
 
 
+.button {
+  display: block;
+  padding: 8px 36px 8px 33px;
+  width: 163px;
+  height: 44px;
+  color: #fff;
+  background-color: var(--green);
+}
+
+
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
@@ -105,9 +115,34 @@ only screen and (                min-resolution: 2dppx) {
 
 }
 
-body {
-  background-image: url(../img/sher-Jurmala-back.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
 
+/* SITE-HEADER */
+.site-header {
+  display: flex;
+}
+
+.site-header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 32px;
+  padding-bottom: 31px;
+}
+
+.sitenav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.sitenav-list {
+
+}
+.sitenav-items {
+  list-style: none;
+  display: flex;
+}
+
+.sitenav-item:not(:last-child) {
+  margin-right: 30px;
 }
